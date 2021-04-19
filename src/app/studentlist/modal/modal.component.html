@@ -1,0 +1,14 @@
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" ></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="close($event)"></button>
+      </div>
+      <div class="modal-body" >
+        <p *ngIf="modalTitle=='Add Student'"><app-addstudent></app-addstudent></p>
+        <p *ngIf="modalTitle=='Edit'"><app-edituser></app-edituser></p>
+      </div>
+    </div>
+  </div>
+</div>

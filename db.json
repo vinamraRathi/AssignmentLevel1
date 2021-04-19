@@ -1,0 +1,89 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "Name": "Vinamra Rath",
+      "email": "vinamra@gmail.com",
+      "Birthdate": {
+        "year": 1998,
+        "month": 5,
+        "day": 6
+      },
+      "Active": true,
+      "Gender": "Male",
+      "Subject": "Mathematics"
+    },
+    {
+      "id": 2,
+      "Name": "Test User",
+      "email": "Test123@gmail.com",
+      "Birthdate": {
+        "year": 2011,
+        "month": 4,
+        "day": 1
+      },
+      "Active": false,
+      "Gender": "Female",
+      "Subject": "Mathematics"
+    },
+    {
+      "id": 3,
+      "Name": "Test User 2",
+      "email": "testuse@gmail.com",
+      "Birthdate": {
+        "year": 2021,
+        "month": 4,
+        "day": 9
+      },
+      "Active": false,
+      "Gender": "Female",
+      "Subject": "English"
+    },
+    {
+      "id": 4,
+      "Name": "test user from modal",
+      "email": "tester@gmail.com",
+      "Birthdate": {
+        "year": 2021,
+        "month": 4,
+        "day": 9
+      },
+      "Active": true,
+      "Gender": "Male",
+      "Subject": "Science"
+    },
+    {
+      "id": 5,
+      "Name": "test user modal2",
+      "email": "efefef@gmail.com",
+      "Birthdate": {
+        "year": 2021,
+        "month": 4,
+        "day": 3
+      },
+      "Active": true,
+      "Gender": "Other",
+      "Subject": "Social Science"
+    }
+  ],
+  "subjects": [
+    {
+      "subjectName": "Data Structure"
+    },
+    {
+      "subjectName": "Mathematics"
+    },
+    {
+      "subjectName": "English"
+    },
+    {
+      "subjectName": "Hindi"
+    },
+    {
+      "subjectName": "Science"
+    },
+    {
+      "subjectName": "Social Science"
+    }
+  ]
+}
